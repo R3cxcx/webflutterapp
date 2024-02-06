@@ -21209,7 +21209,8 @@ _.d=d},
 ou:function ou(a,b,c){this.c=a
 this.e=b
 this.a=c},
-Z7:function Z7(a){this.k1=a},
+Z7:function Z7(a,b){this.d=a
+this.k1=b},
 UV:function UV(){},
 rB(a,b,c){return new A.iX(a,b,c.h("iX<0>")).h_(0,a).h_(0,b)},
 iX:function iX(a,b,c){this.a=a
@@ -68550,7 +68551,7 @@ p=A.YR(p,q,q)
 q=A.aK(["User-Agent","flutter_map (unknown)"],q,q)
 s=new A.a_k(B.E6)
 s.a=q
-return new A.ou(A.b([new A.x2("https://api.mapbox.com/styles/v1/r3xxuu/clbi10a5n000i14n21devckg1/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoicjN4eHV1IiwiYSI6ImNsYmh5aGd0aDB1aWwzdXBmdzRyZzd0YzcifQ.mRAX41gLGb2Qflltw4fD9w",256,0,18,0,s,p,B.X,B.as,null),new A.EL(A.b([A.Z8(new A.a9M(),180,A.ig(24.774265,46.738586),130),A.Z8(new A.a9N(),180,A.ig(24.841127,46.75467),130),A.Z8(new A.a9O(),180,A.ig(24.7405,46.698599),130),A.Z8(new A.a9P(),180,A.ig(24.79339,46.711509),130)],t._I),null)],t.D),new A.Z7(r),null)}}
+return new A.ou(A.b([new A.x2("https://api.mapbox.com/styles/v1/r3xxuu/clbi10a5n000i14n21devckg1/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoicjN4eHV1IiwiYSI6ImNsYmh5aGd0aDB1aWwzdXBmdzRyZzd0YzcifQ.mRAX41gLGb2Qflltw4fD9w",256,0,18,0,s,p,B.X,B.as,null),new A.EL(A.b([A.Z8(new A.a9M(),180,A.ig(24.774265,46.738586),130),A.Z8(new A.a9N(),180,A.ig(24.841127,46.75467),130),A.Z8(new A.a9O(),180,A.ig(24.7405,46.698599),130),A.Z8(new A.a9P(),180,A.ig(24.79339,46.711509),130)],t._I),null)],t.D),new A.Z7(!0,r),null)}}
 A.a9M.prototype={
 $1(a){var s=null
 return A.e9(!1,!0,A.hA(new A.my(30,"THE MUSICAL MANSION","","images/event1.jpg",s),200,200),s,!0,s,s,s,s,s,s,s,s,s,new A.a9L(),s,s,s,s)},
@@ -68662,7 +68663,7 @@ $0(){A.hg($.br(),new A.e3("images/event3.jpg",20,u.s,"Maroc vs portugal",null),t
 $S:0}
 A.e3.prototype={
 K(a){var s,r,q,p,o=this,n=null,m=A.N(255,215,232,241),l=o.f,k=A.eg(l,n),j=A.N(255,97,12,201),i=t.D
-l=A.aik(A.H2(A.b([new A.b7(B.a4,A.bl(n,A.fD(o.d,o.e,l,o.c),n,n,500,n,n,500),n)],i),B.P,B.Q,B.R),1)
+l=A.aik(A.H2(A.b([new A.b7(B.a4,A.bl(n,A.fD(o.d,o.e,l,o.c),n,n,500,n,n,400),n)],i),B.P,B.Q,B.R),1)
 s=A.bl(n,A.eg("",n),n,n,n,n,n,n)
 r=A.N(255,97,12,201)
 q=new A.bH(A.N(255,97,12,201),3,B.J,-1)
